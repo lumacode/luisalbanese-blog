@@ -27,7 +27,7 @@
             <a :href="`whatsapp://send?text=Te%20comparto%20este%20artículo%20muy%20interesante%20https://luisalbanese.com.ar/blog/${slug(articulo.title)}/${articulo.id}`" target="_blank" rel="noopener nofollow" class="git d-md-none"><img src="~/assets/img/whatsapp.png" alt="whatsapp" title="Compartir en whatsapp"></a>
           </p>
 
-          <div v-html="articulo.description"></div>
+          <div class="texto-articulo" v-html="articulo.description"></div>
 
           <!--<p class="text-white bg-dark text-monospace p-5">&lt;p&gt; class="texto-articulo bg-dark p-5 text-white text-monospace"&gt;&lt;div&gt;Hola mundo&lt;/div&gt;&lt;/p&gt;</p>-->
         </div>

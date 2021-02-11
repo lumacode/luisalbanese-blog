@@ -35,10 +35,11 @@
         <p class="text-center texto-mediano pt-2 text-primary">~ o ~</p>
       </section>
 
-      <section class="row px-4" v-if="filterRelacionados !== ''">
+      <section class="row px-4">
         <h3 class="titulo-secciones col-md-12 border-bottom pb-3">
           Artículos relacionados
         </h3>
+        <p class="px-3" v-if="filterRelacionados.length <= 1">Por el momento no hay artículos relacionados con este post...</p>
         <div
           class="card col-md-4 border-0 m-0 p-0"
           v-for="relacion in filterRelacionados"

@@ -345,9 +345,10 @@ figure img{
 }
 
 pre{
-  background: #333;
+  background: #f8f8f8;
   display: block;
   font-size: 87.5%;
-  color: white;
+  color: #333;
   padding: 20px;
+  border: rgb(209, 209, 209) 0.5px solid;
 }

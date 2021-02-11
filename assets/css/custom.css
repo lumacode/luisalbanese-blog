@@ -339,3 +339,7 @@ a:hover {
   }
 
 }
+
+figure img{
+  width: 100%;
+}

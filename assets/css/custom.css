@@ -343,3 +343,11 @@ a:hover {
 figure img{
   width: 100%;
 }
+
+pre{
+  background: #333;
+  display: block;
+  font-size: 87.5%;
+  color: white;
+  padding: 20px;
+}

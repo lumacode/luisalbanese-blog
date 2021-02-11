@@ -35,7 +35,7 @@
         <p class="text-center texto-mediano pt-2 text-primary">~ o ~</p>
       </section>
 
-      <section class="row px-4" v-if="filterRelacionados">
+      <section class="row px-4" v-if="filterRelacionados !== ''">
         <h3 class="titulo-secciones col-md-12 border-bottom pb-3">
           Artículos relacionados
         </h3>

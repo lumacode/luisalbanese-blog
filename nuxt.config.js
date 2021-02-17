@@ -1,8 +1,5 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
-  googleAnalytics: {
-    id: 'G-ZYDZJ7WQTD'
-  },
   head: {
     title: 'Luis Albanese | Desarrollo web profesional',
     meta: [
@@ -60,6 +57,9 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
 
-  }
+  },
+  googleAnalytics: {
+    id: 'G-ZYDZJ7WQTD'
+  },
   
 }

@@ -50,7 +50,7 @@
           <nuxt-link :to="`/blog/${slug(articulo.title)}/${articulo.id}`"
             ><img
               :src="
-                `https://posicionatedigital.com.ar/api/uploads/images/${articulo.img_uri}`
+                `${$config.API_URL}/uploads/images/${articulo.img_uri}`
               "
               class="card-img-top"
               alt="trabajo1"
@@ -123,16 +123,17 @@ export default {
     req,
     res,
     redirect,
-    error
+    error,
+    $config: { API_URL }
   }) {
     try {
       const res = await axios.get(
-        "https://posicionatedigital.com.ar/api/articles/getall"
+        `${API_URL}/articles/getall`
       );
       const articulos = res.data;
 
       const resCategorias = await axios.get(
-        "https://posicionatedigital.com.ar/api/categories/getall"
+        `${API_URL}/categories/getall`
       );
       const categorias = resCategorias.data;
 

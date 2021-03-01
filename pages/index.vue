@@ -9,17 +9,7 @@
 
           <p class="pt-3 text-18">
             Soy <strong>desarrollador web</strong> me apasiona construir
-            aplicaciones web de todo tipo. Trabajo de forma freelance porque
-            considero que es la mejor forma de desarrollarme. Brindo mis
-            servicios a diferentes empresas de forma remota y presencial. Hace
-            poco lance mi empresa de desarrollo web
-            <a
-              href="https://posicionatedigital.com.ar"
-              target="_blank"
-              class="text-primary"
-            >
-              Posicionate Digital.</a
-            >
+            aplicaciones web de todo tipo. Brinde mis servicios a diferentes empresas de forma remota y presencial.
           </p>
 
           <p class="text-18">
@@ -48,8 +38,12 @@
 
                 <p class="text-18">
                   Mi lema es que un desarrollador web no se destaca por sus títulos y
-                  certificados, se destaca por su trabajo. Una recomendación: nunca
-                  dejes que tus miedos te impidan hacer lo que te gusta.
+                  certificados, se destaca por su trabajo. 
+                  Una recomendación: nunca dejes que tus miedos te impidan hacer lo que te gusta.
+                </p>
+
+                <p class="text-18">
+                  <strong>Una recomendación:</strong> nunca dejes que tus miedos te impidan hacer lo que te gusta.
                 </p>
 
                 <p class="text-18">
@@ -92,7 +86,7 @@
             <nuxt-link :to="`/blog/${slug(articulo.title)}/${articulo.id}`"
               ><img
                 :src="
-                  `https://posicionatedigital.com.ar/api/uploads/images/${articulo.img_uri}`
+                  `${$config.API_URL}/uploads/images/${articulo.img_uri}`
                 "
                 class="card-img-top"
                 alt="trabajo1"
@@ -136,11 +130,12 @@ export default {
     req,
     res,
     redirect,
-    error
+    error,
+    $config: { API_URL }
   }) {
     try {
       const res = await axios.get(
-        "https://posicionatedigital.com.ar/api/articles/getlimit/6"
+        `${API_URL}/api/articles/getlimit/6`
       );
 
       const articulos = res.data;

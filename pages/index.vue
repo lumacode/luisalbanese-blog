@@ -13,8 +13,8 @@
           </p>
 
           <p class="text-18">
-            Me especializo en <strong>HTML, CSS, PHP y JavaScript</strong>. Soy
-            creador del framework PHP llamado LumaREST, el mismo fue ideado para
+            Me especializo en <strong>HTML, CSS, PHP y JavaScript</strong>. Me encuentro desarrollando un
+            micro framework PHP llamado LumaREST, la idea del mismo es recuperar las bases de PHP, POO y MVC para
             crear servidores REST utilizando una arquitectura liviana y segura
             dispuesta a soportar gran cantidad de peticiones y con el objetivo
             de que pueda ser aprovechado en cualquier hosting debido a que
@@ -39,7 +39,6 @@
                 <p class="text-18">
                   Mi lema es que un desarrollador web no se destaca por sus títulos y
                   certificados, se destaca por su trabajo. 
-                  Una recomendación: nunca dejes que tus miedos te impidan hacer lo que te gusta.
                 </p>
 
                 <p class="text-18">

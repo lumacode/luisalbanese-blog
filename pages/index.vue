@@ -8,20 +8,17 @@
           <hr />
 
           <p class="pt-3 text-18">
-            Soy <strong>desarrollador web</strong> me apasiona construir
-            aplicaciones web de todo tipo. Brinde mis servicios a diferentes empresas de forma remota y presencial.
+            Soy <strong>desarrollador web full stack,</strong> me apasiona construir
+            aplicaciones web de todo tipo. Actualmente me desempeño como Sr. developer en una empresa de desarrollo web. 
           </p>
 
           <p class="text-18">
-            Me especializo en <strong>HTML, CSS, PHP y JavaScript</strong>. Me encuentro desarrollando un
+            Me especializo en <strong>HTML, CSS, PHP y JavaScript (inclusive node.js)</strong>. Me encuentro desarrollando un
             micro framework PHP llamado LumaREST, la idea del mismo es recuperar las bases de PHP, POO y MVC para
-            crear servidores REST utilizando una arquitectura liviana y segura
+            crear servidores REST utilizando una arquitectura super liviana y segura
             dispuesta a soportar gran cantidad de peticiones y con el objetivo
-            de que pueda ser aprovechado en cualquier hosting debido a que
-            muchas veces no podía utilizar <strong>Node.js</strong> en algunos
-            servidores y Laravel, Symfony o similares me resultaban demasiado
-            para algunos desarrollos. Mi framework javaScript favorito es
-            <strong>Vue.js</strong> y ultimamente estoy muy entusiasmado con
+            de que pueda ser aprovechado en cualquier hosting, el mismo ya tiene su versión productiva compatible con PHP 8 y vista twig, la idea central es que se pueda utilizar para crear tiendas virtuales súper rápidas. <br>
+            Mi framework javaScript favorito es <strong>Vue.js</strong> y ultimamente estoy muy entusiasmado con
             <strong>Nuxt...</strong><br class="d-md-none">
             <small v-if="!displaySobreMi"><a href="#" @click.prevent="mostrarSobreMi" class="text-primary border p-1 ml-md-2">Ver más</a></small>
           </p>

@@ -17,7 +17,7 @@
             micro framework PHP llamado LumaREST, la idea del mismo es recuperar las bases de PHP, POO y MVC para
             crear servidores REST utilizando una arquitectura super liviana y segura
             dispuesta a soportar gran cantidad de peticiones y con el objetivo
-            de que pueda ser aprovechado en cualquier hosting, el mismo ya tiene su versión productiva compatible con PHP 8 y vista twig, la idea central es que se pueda utilizar para crear tiendas virtuales súper rápidas. <br>
+            de que pueda ser aprovechado en cualquier hosting, el mismo ya tiene su versión productiva compatible con PHP 8 y vistas twig, la idea central es que se pueda utilizar para crear tiendas virtuales súper rápidas pero también cualquier otro tipo de aplicación web. <br>
             Mi framework javaScript favorito es <strong>Vue.js</strong> y ultimamente estoy muy entusiasmado con
             <strong>Nuxt...</strong><br class="d-md-none">
             <small v-if="!displaySobreMi"><a href="#" @click.prevent="mostrarSobreMi" class="text-primary border p-1 ml-md-2">Ver más</a></small>

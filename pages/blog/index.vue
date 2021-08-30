@@ -92,7 +92,7 @@
                 href="#"
                 class="btn btn-primary"
                 aria-label="Next"
-                v-show="(pag * NUM_RESULTS) / articulos.length < 1"
+                v-show="(pag * NUM_RESULTS) / searchCategory.length < 1"
                 @click.prevent="pag += 1"
               >
                 <span aria-hidden="true">Siguiente</span>
@@ -111,7 +111,8 @@ export default {
     return {
       NUM_RESULTS: 6, // Numero de resultados por página
       pag: 1, // Página inicial
-      filtroCategoria: ""
+      filtroCategoria: "",
+      countArticles: 0
     };
   },
   async asyncData({

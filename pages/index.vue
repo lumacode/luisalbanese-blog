@@ -8,18 +8,14 @@
           <hr />
 
           <p class="pt-3 text-18">
-            Soy <strong>desarrollador web full stack,</strong> me apasiona construir
-            aplicaciones web de todo tipo. Actualmente me desempeño como Sr. developer en una empresa de desarrollo web. 
+            Soy <strong>desarrollador web full stack hace más de 6 años,</strong> me apasiona construir
+            aplicaciones web de todo tipo. A pesar de manejar tanto el campo del front como del back, mi especialización el del lado del servidor. 
           </p>
 
           <p class="text-18">
-            Me especializo en <strong>HTML, CSS, PHP y JavaScript (inclusive node.js)</strong>. Me encuentro desarrollando un
-            micro framework PHP llamado LumaREST, la idea del mismo es recuperar las bases de PHP, POO y MVC para
-            crear servidores REST utilizando una arquitectura super liviana y segura
-            dispuesta a soportar gran cantidad de peticiones y con el objetivo
-            de que pueda ser aprovechado en cualquier hosting, el mismo ya tiene su versión productiva compatible con PHP 8 y vistas twig, la idea central es que se pueda utilizar para crear tiendas virtuales súper rápidas pero también cualquier otro tipo de aplicación web. <br>
-            Mi framework javaScript favorito es <strong>Vue.js</strong> y ultimamente estoy muy entusiasmado con
-            <strong>Nuxt...</strong><br class="d-md-none">
+            Entre las tecnologías que manejo se encuentran <strong>HTML, CSS, PHP y JavaScript (vue, nuxt, react, node.js)</strong>. <br> 
+            La arquitectura que suelo usar para desarrollar es la de tipo API REST, manteniendo, en lo posible, backend, datos y frontend separados. <br>
+            Mi framework de front javaScript favorito es <strong>Vue.js</strong> y para el SSR <strong>Nuxt...</strong><br class="d-md-none">
             <small v-if="!displaySobreMi"><a href="#" @click.prevent="mostrarSobreMi" class="text-primary border p-1 ml-md-2">Ver más</a></small>
           </p>
 
@@ -39,7 +35,7 @@
                 </p>
 
                 <p class="text-18">
-                  <strong>Una recomendación:</strong> nunca dejes que tus miedos te impidan hacer lo que te gusta.
+                  <strong>Una recomendación:</strong> nunca dejes que tus miedos te impidan cumplir tus sueños.
                 </p>
 
                 <p class="text-18">
@@ -49,9 +45,7 @@
                 </p>
             </div>
           <p class="text-18 aler alert-success p-4 mt-5 mb-4">
-            <b>📢 Aviso:</b> En estos días voy a ir sumando más contenido, la idea
-            es seguir publicando artículos de forma semanal y además generar
-            otro tipo de contenido, no olvides suscribirte al newsletter ⬇
+            <b>📢 Aviso:</b> Estoy preparando nuevo contenido para vos, no dejes de visitar mi blog y mis redes sociales. ⬇
           </p>
         </div>
       </section>

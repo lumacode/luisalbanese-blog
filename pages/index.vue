@@ -131,7 +131,7 @@ export default {
   }) {
     try {
       const res = await axios.get(
-        `${API_URL}/api/articles/getlimit/6`
+        `${API_URL}?c=articles&a=getlimit&id=6`
       );
 
       const articulos = res.data;

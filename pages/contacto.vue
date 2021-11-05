@@ -84,7 +84,7 @@ export default {
                     }
       const config = {
                   method: 'post',
-                  url: 'https://posicionatedigital.com.ar/api/contact/contactform',
+                  url: 'https://api.posicionatedigital.com.ar?c=contact&a=contactform',
                   data :  JSON.stringify(data)
             }
 

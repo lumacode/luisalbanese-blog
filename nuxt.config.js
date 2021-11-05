@@ -62,7 +62,7 @@ export default {
   },
 
   publicRuntimeConfig: {
-    API_URL: 'https://posicionatedigital.com.ar/api'
+    API_URL: 'https://api.posicionatedigital.com.ar'
   },
   
 }

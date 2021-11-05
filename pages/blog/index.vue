@@ -129,12 +129,12 @@ export default {
   }) {
     try {
       const res = await axios.get(
-        `${API_URL}/articles/getall`
+        `${API_URL}?c=articles&a=getall`
       );
       const articulos = res.data;
 
       const resCategorias = await axios.get(
-        `${API_URL}/categories/getall`
+        `${API_URL}?c=categories&a=getall`
       );
       const categorias = resCategorias.data;
 

@@ -13,7 +13,7 @@
           </div>
           <img
             :src="
-              `https://posicionatedigital.com.ar/api/uploads/images/${articulo.img_uri}`
+              `https://api.posicionatedigital.com.ar/uploads/images/${articulo.img_uri}`
             "
             class="card-img-top"
             alt="trabajo1"
@@ -61,7 +61,7 @@
             <nuxt-link :to="`/blog/${slug(relacion.title)}/${relacion.id}`"
               ><img
                 :src="
-                  `https://posicionatedigital.com.ar/api/uploads/images/${relacion.img_uri}`
+                  `https://api.posicionatedigital.com.ar/uploads/images/${relacion.img_uri}`
                 "
                 class="card-img-top"
                 alt="trabajo1"
@@ -98,17 +98,18 @@ export default {
     req,
     res,
     redirect,
-    error
+    error,
+    $config: { API_URL }
   }) {
     try {
       const res = await axios.get(
-        `https://posicionatedigital.com.ar/api/articles/getone/${params.id}`
+        `${API_URL}?c=articles&a=getone&id=${params.id}`
       );
 
       const articulo = res.data;
 
       const resRelacionados = await axios.get(
-        `https://posicionatedigital.com.ar/api/articles/relatedposts/${articulo.category_id}`
+        `${API_URL}?c=articles&a=relatedposts&id=${articulo.category_id}`
       );
       const relacionados = resRelacionados.data;
 

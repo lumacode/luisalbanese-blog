@@ -71,7 +71,7 @@ export default {
    async suscribirse(){
      const config = {
                 method: 'post',
-                url: 'https://posicionatedigital.com.ar/api/contact/newsletter',
+                url: 'https://api.posicionatedigital.com.ar/?c=contact&a=newsletter',
                 data :  JSON.stringify({"email": this.email})
           }
       const res = await axios(config);

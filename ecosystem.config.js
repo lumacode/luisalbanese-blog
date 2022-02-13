@@ -9,3 +9,4 @@ module.exports = {
       }
     ]
   }
+//pm2 start
